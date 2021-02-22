@@ -25,4 +25,6 @@ API EndPoints:
 /patents/{id}?applicationssn=x&casenumber=y (GET) - returns Patent object for given patentid, applicationssn and casenumber (these three columns are part of primary key)
 
 
+
+
 NOTICE : THIS PROJECT IS UNDER DEVELOPMENT AND PRONE TO FREQUENT CHANGES !!!!
