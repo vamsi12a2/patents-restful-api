@@ -8,8 +8,12 @@
 
 API EndPoints:
 
-/authenticate - for authetication
+/authenticate - for authetication 
+
 /test - to the application is up or not
+
 /patents - returns all the patents in db
+
 /patents?size=n - returns 'n' patents from db
+
 /patents/{id}?applicationssn=x&casenumber=y - return Patent object with given patentid,applicationssn and casenumber (these three columns combined to form primary key)
