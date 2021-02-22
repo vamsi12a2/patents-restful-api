@@ -7,6 +7,7 @@
  3. Execute the jar.
 
 API EndPoints:
+
 /authenticate - for authetication
 /test - to the application is up or not
 /patents - returns all the patents in db
