@@ -8,12 +8,18 @@
 
 API EndPoints:
 
-/authenticate - for authetication 
+/authenticate - for authetication (GET)
 
-/test - to the application is up or not
+/test - to the application is up or not (GET)
 
-/patents - returns all the patents in db
+/patents - returns all the patents in db (GET)
 
-/patents?size=n - returns 'n' patents from db
+/patents?size=n - returns 'n' patents from db (GET
 
-/patents/{id}?applicationssn=x&casenumber=y - return Patent object with given patentid,applicationssn and casenumber (these three columns combined to form primary key)
+/patents - adds new patent to db (POST)
+
+/patents - updates existing patent in db (PUT)
+
+/patents - deletes existing patent in db (DELETE)
+
+/patents/{id}?applicationssn=x&casenumber=y (GET) - return Patent object with given patentid,applicationssn and casenumber (these three columns are part of primary key)
